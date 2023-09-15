@@ -1,0 +1,26 @@
+void Sort_List(NODE **ps)
+{
+	int flag,temp;
+	NODE *p,*q=NULL;
+	if(*ps==NULL)
+	{
+		printf("\nList is empty");
+		return;
+	}
+	do{
+		flag=0;
+		p=*ps;
+		while(p->next!=q)
+		{
+			if(p->info>p->next->info)
+			{
+				temp=p->info;
+				p->info=p->next->info;
+				p->next->info=temp;
+				flag=1;
+			}
+			p=p->next;
+		}
+		q=p;
+	}while(flag==1);
+}

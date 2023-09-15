@@ -1,0 +1,92 @@
+int pallindrome(struct node *temp)
+{
+int count=0;
+if(temp==NULL)
+return(-999);
+pallindrome(temp->next);
+if(temp->data!=head2->data)
+count++;
+head2=head2->next;
+return(count);
+}
+
+
+
+
+
+
+
+
+1.	Linked List Deletion (Deleting a given key)
+2.	Linked List Deletion (Deleting a key at given position)
+3.	Write a function to delete a Linked List
+4.	Find Length of a Linked List (Iterative and Recursive)
+5.	Search an element in a Linked List (Iterative and Recursive)
+6.	Write a function to get Nth node in a Linked List
+7.	Nth node from the end of a Linked List
+8.	Print the middle of a given linked list
+9.	Write a function that counts the number of times a given int occurs in a Linked List
+10.	Detect loop in a linked list
+11.	Function to check if a singly linked list is palindrome
+12.	Remove duplicates from a sorted linked list
+13.	Remove duplicates from an unsorted linked list
+14.	Swap nodes in a linked list without swapping data
+15.	Pairwise swap elements of a given linked list
+16.	Move last element to front of a given Linked List
+17.	Intersection of two Sorted Linked Lists
+18.	Segregate even and odd nodes in a Linked List
+19.	Reverse a linked list
+20.	Recursive function to print reverse of a Linked List
+From Dr. Rajesh Kumar Panda to Everyone:  08:41 PM
+21.	Iteratively reverse a linked list using only 2 pointers
+22.	Reverse a Linked List in groups of given size
+23.	Alternate Odd and Even Nodes in a Singly Linked List
+24.	Delete alternate nodes of a Linked List
+25.	Alternating split of a given Singly Linked List
+26.	Delete nodes which have a greater value on right side
+27. 	Rotate a linked list
+
+
+
+void merge(struct Link *head1,struct Link *head2)           
+{
+	while(head1->next!=NULL)
+	{
+		head1=head1->next;
+	}
+	head1->next=head2;
+}
+
+void sort(struct Link *head1)
+{
+	struct Link *node;
+	int  temp;
+	ptr=head1;
+	while(ptr->next!=NULL)
+	{
+		node=ptr->next;
+		while(node!=NULL)
+		{
+			if(ptr->info > node->info)
+			{
+				temp=ptr->info;
+				ptr->info=node->info;
+				node->info=temp;
+			}
+			node=node->next;
+		}
+		ptr=ptr->next;
+	}
+}
+
+
+link
+https://www.docdroid.net/ZPfHmS5/data-structures-and-algorithms-narasimha-karumanchi-pdf
+
+
+
+
+
+
+
+

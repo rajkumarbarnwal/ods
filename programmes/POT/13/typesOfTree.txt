@@ -1,0 +1,68 @@
+Binary Tree:
+A tree is said to be binary tree if each node have either 0,1 or 2 child nodes.
+
+Or
+
+A tree is said to be binary tree if each node 
+have no child node or maximum two child nodes.
+
+Types of Binary tree
+--------------------
+1. Strictly Binary tree
+2. Complete Binary tree
+3. Almost complete Binary tree
+4. Binary search Tree
+
+Strictly Binary tree(SBT)
+--------------------
+A tree is said to be SBT 
+if each node have either no child node or two child nodes.
+OR
+A binary tree is said to be SBT
+if each internal node have two child nodes.
+
+Complete Binary Tree(CBT)
+-------------------------
+A tree is said to be complete binary tree
+if satisfies the following two points.
+-Each internal node must have two child nodes and
+-All leaf nodes are present at the same level.
+
+Almost Complete Binary Tree (ACBT)
+-----------------------------------
+A tree is said to be ACBT 
+if it satisfies the following two points.
+-upto n-2 level, each internal node must have two child nodes.
+-And the last level is going to fill from left to right.
+
+Binary Search Tree(BST)
+-----------------------
+A tree is said to be binary search tree(BST)
+if it satifies the following point.
+-each parent node is greater than from it left child and less then from its right child.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
